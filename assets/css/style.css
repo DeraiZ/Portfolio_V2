@@ -158,11 +158,12 @@ a:hover {
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
+  color: white;
 }
 
 .subtitle-a {
   text-decoration: none;
-  color: #4e4e4e;
+  color: white;
 }
 
 .line-mf {
