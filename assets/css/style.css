@@ -134,7 +134,7 @@ a:hover {
 }
 
 .sect-pt4 {
-  padding-top: 4rem;
+  padding: 4rem 0;
 }
 
 .sect-mt4 {
@@ -149,21 +149,28 @@ a:hover {
 }
 
 /*--/ Title A /--*/
-.title-box {
+/* .title-box {
   margin-bottom: 4rem;
-}
+} */
 
 .title-a {
   text-decoration: none;
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.blog-mf .title-a{
+  color: white;
+}
+
+.blog-mf .subtitle-a{
   color: white;
 }
 
 .subtitle-a {
   text-decoration: none;
-  color: white;
+  color: #4e4e4e;
 }
 
 .line-mf {
@@ -192,6 +199,7 @@ a:hover {
   bottom: -12px;
 }
 
+
 /*------/ Box /------*/
 .box-pl2 {
   padding-left: 2rem;
@@ -212,6 +220,19 @@ a:hover {
   }
 }
 
+.work-img{
+  width: auto;
+}
+
+.Nft{
+  width: auto !important;
+  height: 210px;
+}
+
+.linkedin{
+  margin-top: 25%;
+}
+
 /*------/ Socials /------*/
 .socials {
   padding: 1.5rem 0;
@@ -222,8 +243,8 @@ a:hover {
 }
 
 .socials .ico-circle {
-  height: 40px;
-  width: 40px;
+  height: 100%;
+  width: 100%;
   font-size: 1.2rem;
   border-radius: 50%;
   line-height: 1.6;
@@ -1255,11 +1276,11 @@ a:hover {
 /*--------------------------------------------------------------
 # Blog
 --------------------------------------------------------------*/
-@media (min-width: 767px) {
+/* @media (min-width: 767px) {
   .card-blog {
     margin-bottom: 3rem;
   }
-}
+} */
 
 .card-blog .card-body {
   position: relative;
@@ -1300,6 +1321,7 @@ a:hover {
 
 .card-blog .card-description {
   color: #4e4e4e;
+
 }
 
 .card-blog .post-author {
